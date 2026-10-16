@@ -16,3 +16,22 @@ flutter pub get
 flutter run
 flutter test
 ```
+
+## Solución de `lib/casos/`
+
+```
+lib/casos/
+├── adapter.dart              (Caso C)
+├── dependency_injection.dart (Caso B)
+├── factory_method.dart       (Caso A)
+├── observer.dart             (Caso E)
+├── repository.dart           (Caso D)
+└── strategy.dart             (Caso F)
+```
+
+### Verificación
+
+```bash
+flutter test
+dart analyze lib test 
+```
